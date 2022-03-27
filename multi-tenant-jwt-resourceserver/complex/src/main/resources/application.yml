@@ -12,10 +12,7 @@ spring:
       # get rid of "Using default security password" logs and basic auth defaults
       - org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
 
-# Environment variables to use
-# APP_ISSUERS_0_=https://accounts.google.com
-# APP_ISSUERS_1_=https://auth0.auth0.com/
 app:
   issuers:
-    - https://accounts.google.com # replace with your own
-    - https://auth0.auth0.com/ # replace with your own
+    - https://sts.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/
+    - https://<your-tenant>.b2clogin.com/<your-tenant>.onmicrosoft.com/<your-policy>/v2.0/
