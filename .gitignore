@@ -33,3 +33,4 @@ build/
 .vscode/
 .DS_Store
 multi-tenant-jwt-resourceserver/.mvn/wrapper/maven-wrapper.jar
+multi-tenant-jwt-resourceserver/.env
